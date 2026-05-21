@@ -1,0 +1,12 @@
+Benchmark configuration:
+  size=1600x1200
+  iterations=1200
+  smooth=ON
+  antialias=OFF
+  warmup=1
+  runs=5
+
+threads=1 | avg=1484.77 ms | speedup=1.00x
+threads=2 | avg=747.58 ms | speedup=1.99x
+threads=4 | avg=400.63 ms | speedup=3.71x
+threads=8 | avg=271.24 ms | speedup=5.47x
