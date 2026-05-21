@@ -191,7 +191,7 @@ python3 scripts/plot_speedup.py --threads 1,2,4,8 --times 2542.87,1300.00,637.85
 
 ## 7. 高分建议
 
-为了更容易拿高分，建议你这样演示和写报告：
+为了更容易拿高分，可以采取建议：
 
 1. 先说明并行策略。
    使用线程池，把图像按水平条带切分成多个任务并行计算。
@@ -239,13 +239,4 @@ java -jar target/MiniProject-1.0-SNAPSHOT.jar
 
 这是正常的，因为它现在是真正的 5-point antialiasing，而不是单纯的 Swing 显示插值。
 
-## 9. 交作业前检查清单
 
-- 能成功执行 `./build.sh`
-- 能成功运行 `java -jar target/MiniProject-1.0-SNAPSHOT.jar`
-- 能成功运行 benchmark
-- 能成功用 `Ctrl + S` 或 `Cmd + S` 导出 PNG
-- 能成功运行 `python3 scripts/plot_speedup.py benchmark-results/latest.txt`
-- 记录了 1 线程和 4 线程时间
-- 报告里写清楚 speedup
-- 报告里说明了并行方案和交互操作
